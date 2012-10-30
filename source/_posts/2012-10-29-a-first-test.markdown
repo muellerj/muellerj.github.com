@@ -12,13 +12,13 @@ consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-``` ruby Discover if a number is prime http://www.noulakaz.net/weblog/2007/03/18/a-regular-expression-to-check-for-prime-numbers/ Source Article
+{% codeblock %}
 class Fixnum
   def prime?
     ('1' * self) !~ /^1?$|^(11+?)\1+$/
   end
 end
-```
+{% endcodeblock %}
 <!-- more -->
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
