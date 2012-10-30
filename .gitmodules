@@ -1,0 +1,6 @@
+[submodule "slash"]
+    path = .themes/slash
+    url = https://github.com/tommy351/Octopress-Theme-Slash.git
+[submodule "octopress-bootstrap"]
+    path = .themes/octopress-bootstrap
+    url = https://github.com/barmstrong/octopress-bootstrap.git

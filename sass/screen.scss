@@ -3,3 +3,12 @@
 @import "base";
 @import "parts";
 @import "plugins";
+
+// Center images
+.post {
+  img {
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+  }
+}
