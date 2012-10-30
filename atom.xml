@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[My Octopress Blog]]></title>
+  <title><![CDATA[Tiggeryard]]></title>
   <link href="http://muellerj.github.com/atom.xml" rel="self"/>
   <link href="http://muellerj.github.com/"/>
-  <updated>2012-10-30T11:32:47+01:00</updated>
+  <updated>2012-10-30T13:28:17+01:00</updated>
   <id>http://muellerj.github.com/</id>
   <author>
     <name><![CDATA[Jonas Müller]]></name>
@@ -29,6 +29,8 @@ quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+<p><img src="http://muellerj.github.com/images/bart-ask-google.jpg" title="Bart ask Google" ></p>
 
 <!-- more -->
 
@@ -91,7 +93,46 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
 <h2>Shell</h2>
 
-<p>Liquid error: ClassNotFound: no lexer for alias &#8216;shell&#8217; found</p>
+<figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+<span class='line-number'>19</span>
+</pre></td><td class='code'><pre><code class='sh'><span class='line'><span class="c">## Commiting: Site updated at 2012-10-30 10:23:14 UTC</span>
+</span><span class='line'><span class="o">[</span>master 304fd42<span class="o">]</span> Site updated at 2012-10-30 10:23:14 UTC
+</span><span class='line'> 5 files changed, 27 insertions<span class="o">(</span>+<span class="o">)</span>, 24 deletions<span class="o">(</span>-<span class="o">)</span>
+</span><span class='line'>
+</span><span class='line'><span class="c">## Pushing generated _deploy website</span>
+</span><span class='line'>Username <span class="k">for</span> <span class="s1">&#39;https://github.com&#39;</span>: muellerj
+</span><span class='line'>Password <span class="k">for</span> <span class="s1">&#39;https://muellerj@github.com&#39;</span>:
+</span><span class='line'>Counting objects: 27, <span class="k">done</span>.
+</span><span class='line'>Delta compression using up to 4 threads.
+</span><span class='line'>Compressing objects: 100% <span class="o">(</span>10/10<span class="o">)</span>, <span class="k">done</span>.
+</span><span class='line'>Writing objects: 100% <span class="o">(</span>14/14<span class="o">)</span>, 1.54 KiB, <span class="k">done</span>.
+</span><span class='line'>Total 14 <span class="o">(</span>delta 6<span class="o">)</span>, reused 0 <span class="o">(</span>delta 0<span class="o">)</span>
+</span><span class='line'>To https://github.com/muellerj/muellerj.github.com
+</span><span class='line'>   9b7963f..304fd42  master -&gt; master
+</span><span class='line'>
+</span><span class='line'><span class="c">## Github Pages deploy complete</span>
+</span><span class='line'><span class="nb">cd</span> -
+</span><span class='line'>
+</span><span class='line'>C:<span class="se">\U</span>sers<span class="se">\m</span>uellerj<span class="se">\S</span>andbox<span class="se">\o</span>ctopress&gt;
+</span></code></pre></td></tr></table></div></figure>
+
 
 <h2>Matlab</h2>
 
@@ -115,6 +156,45 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 </span><span class='line'>  <span class="n">legend</span><span class="p">(</span><span class="s">&#39;understeering&#39;</span><span class="p">,</span> <span class="s">&#39;oversteering&#39;</span><span class="p">,</span> <span class="s">&#39;neutral&#39;</span><span class="p">)</span>
 </span><span class='line'>  <span class="n">colour</span> <span class="p">=</span> <span class="n">ncolour</span><span class="p">;</span> <span class="n">style</span> <span class="p">=</span> <span class="n">nstyle</span><span class="p">;</span> <span class="k">return</span>
 </span><span class='line'><span class="k">end</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<h2>LaTeX</h2>
+
+<figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+</pre></td><td class='code'><pre><code class='latex'><span class='line'><span class="c">% PhD thesis Jonas Mueller</span>
+</span><span class='line'><span class="c">% created on 2008-05-12.</span>
+</span><span class='line'><span class="k">\documentclass</span><span class="na">[a4paper, 12pt]</span><span class="nb">{</span>book<span class="nb">}</span>
+</span><span class='line'>
+</span><span class='line'><span class="c">% Define readiness for submission </span>
+</span><span class='line'><span class="c">% (1 = draft, 2 = final draft, 3 = submission document)</span>
+</span><span class='line'><span class="k">\newcounter</span><span class="nb">{</span>draftlevel<span class="nb">}</span>
+</span><span class='line'><span class="k">\setcounter</span><span class="nb">{</span>draftlevel<span class="nb">}{</span>3<span class="nb">}</span>
+</span><span class='line'>
+</span><span class='line'><span class="k">\usepackage</span><span class="nb">{</span>./framework/mainstyle<span class="nb">}</span>
+</span><span class='line'>
+</span><span class='line'><span class="k">\begin</span><span class="nb">{</span>document<span class="nb">}</span>
+</span><span class='line'>
+</span><span class='line'>  <span class="k">\frontmatter</span>
+</span><span class='line'>    <span class="k">\input</span><span class="nb">{</span>./framework/fancy<span class="nb">_</span>front.sty<span class="nb">}</span>
+</span><span class='line'>    <span class="k">\input</span><span class="nb">{</span>./tex/frontmatter/titlepage.tex<span class="nb">}</span>
+</span><span class='line'>    <span class="k">\blankpage</span>
 </span></code></pre></td></tr></table></div></figure>
 
 ]]></content>
