@@ -5,12 +5,14 @@ date: 2012-10-29 18:42
 comments: true
 categories: 
 ---
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+Lorem ipsum `dolor sit amet`, [some link][rk] consectetur adipisicing elit, sed do eiusmod
 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+[rk]: http://ringkeepers.com
 
 {% codeblock lang:ruby %}
 class Fixnum
@@ -21,9 +23,25 @@ end
 {% endcodeblock %}
 <!-- more -->
 
-Some more codeblock tests follow:
+Some more tests follow:
 
-## Ruby
+## Lists
+
+* some
+* bullet-points
+* lists including `inline code segments`
+  - with
+  - nesting
+
+and also
+
+1. some 
+2. numbered
+    1. and
+    2. nested
+3. lists
+
+## Ruby Code Highlighing
 
 {% codeblock lang:ruby %}
 class Fixnum
@@ -34,7 +52,7 @@ end
 {% endcodeblock %}
 
 
-## Shell
+## Shell Code Highlighing
 
 {% codeblock lang:sh %}
 ## Commiting: Site updated at 2012-10-30 10:23:14 UTC
@@ -59,7 +77,7 @@ C:\Users\muellerj\Sandbox\octopress>
 {% endcodeblock %}
 
 
-## Matlab
+## Matlab Code Highlighing
 
 {% codeblock lang:matlab %}
 % Show debugging plot if requested
@@ -75,7 +93,7 @@ end
 {% endcodeblock %}
 
 
-## LaTeX
+## LaTeX Code Highlighing
 
 {% codeblock lang:latex %}
 % PhD thesis Jonas Mueller
