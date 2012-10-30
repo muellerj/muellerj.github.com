@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Tiggress | Tiggeryard]]></title>
   <link href="http://muellerj.github.com/blog/categories/tiggress/atom.xml" rel="self"/>
   <link href="http://muellerj.github.com/"/>
-  <updated>2012-10-30T13:28:17+01:00</updated>
+  <updated>2012-10-30T13:46:54+01:00</updated>
   <id>http://muellerj.github.com/</id>
   <author>
     <name><![CDATA[Jonas Müller]]></name>
@@ -18,7 +18,7 @@
     <link href="http://muellerj.github.com/blog/2012/10/29/hallo-liebe-kati/"/>
     <updated>2012-10-29T23:05:00+01:00</updated>
     <id>http://muellerj.github.com/blog/2012/10/29/hallo-liebe-kati</id>
-    <content type="html"><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    <content type="html"><![CDATA[<p>Lorem ipsum dolor <code>some inline code</code> sit amet, consectetur adipisicing elit, sed do eiusmod
 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
@@ -45,3 +45,4 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
   </entry>
   
 </feed>
+feed>

@@ -4,7 +4,7 @@
   <title><![CDATA[Tiggeryard]]></title>
   <link href="http://muellerj.github.com/atom.xml" rel="self"/>
   <link href="http://muellerj.github.com/"/>
-  <updated>2012-10-30T13:28:17+01:00</updated>
+  <updated>2012-10-30T13:46:54+01:00</updated>
   <id>http://muellerj.github.com/</id>
   <author>
     <name><![CDATA[Jonas Müller]]></name>
@@ -18,7 +18,7 @@
     <link href="http://muellerj.github.com/blog/2012/10/29/hallo-liebe-kati/"/>
     <updated>2012-10-29T23:05:00+01:00</updated>
     <id>http://muellerj.github.com/blog/2012/10/29/hallo-liebe-kati</id>
-    <content type="html"><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    <content type="html"><![CDATA[<p>Lorem ipsum dolor <code>some inline code</code> sit amet, consectetur adipisicing elit, sed do eiusmod
 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
@@ -49,7 +49,7 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     <link href="http://muellerj.github.com/blog/2012/10/29/a-first-test/"/>
     <updated>2012-10-29T18:42:00+01:00</updated>
     <id>http://muellerj.github.com/blog/2012/10/29/a-first-test</id>
-    <content type="html"><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    <content type="html"><![CDATA[<p>Lorem ipsum <code>dolor sit amet</code>, <a href="http://ringkeepers.com">some link</a> consectetur adipisicing elit, sed do eiusmod
 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
@@ -74,9 +74,39 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 <!-- more -->
 
 
-<p>Some more codeblock tests follow:</p>
+<p>Some more tests follow:</p>
 
-<h2>Ruby</h2>
+<h2>Lists</h2>
+
+<ul>
+<li>some</li>
+<li>bullet-points</li>
+<li>lists including <code>inline code segments</code>
+
+<ul>
+<li>with</li>
+<li>nesting</li>
+</ul>
+</li>
+</ul>
+
+
+<p>and also</p>
+
+<ol>
+<li>some</li>
+<li>numbered
+
+<ol>
+<li>and</li>
+<li>nested</li>
+</ol>
+</li>
+<li>lists</li>
+</ol>
+
+
+<h2>Ruby Code Highlighing</h2>
 
 <figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
@@ -91,7 +121,7 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 </span></code></pre></td></tr></table></div></figure>
 
 
-<h2>Shell</h2>
+<h2>Shell Code Highlighing</h2>
 
 <figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
@@ -134,7 +164,7 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 </span></code></pre></td></tr></table></div></figure>
 
 
-<h2>Matlab</h2>
+<h2>Matlab Code Highlighing</h2>
 
 <figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
@@ -159,7 +189,7 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 </span></code></pre></td></tr></table></div></figure>
 
 
-<h2>LaTeX</h2>
+<h2>LaTeX Code Highlighing</h2>
 
 <figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
